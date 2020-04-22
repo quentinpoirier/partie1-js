@@ -15,16 +15,10 @@
 
 
     <script>
-        let nb1 = prompt("chiffre 1");
-        let nb2 = prompt("chiffre 2");
-        let result = Number(nb1) + Number(nb2)
-
-        if (nb1, nb2 != null) {
-            alert (nb1 + "+" + nb2 + "=" + result)
-        }
-
-        
-
+        let nb1 = parseInt(prompt("chiffre 1"));
+        let nb2 = parseInt(prompt("chiffre 2"));
+        console.log(typeof(nb1));
+        console.log(`le résultat ${nb1} + ${nb2} est égal à ${nb1 + nb2}`);
     </script>
 
 </body>
